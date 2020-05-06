@@ -7,7 +7,9 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "adb": "adb start-server",
+    "emulator": "emulator -avd Pixel2XL_Pie"
   },
   "dependencies": {
     "react": "16.11.0",
